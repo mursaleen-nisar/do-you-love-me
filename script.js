@@ -31,15 +31,15 @@ noBtn.addEventListener('click', () => {
     if (btnClicked === 1) {
         title.textContent = 'Please think again!';
         subTitle.textContent = 'Itni jldii na matt bolo 😥';
-        video.src = './assets/2.mov';
+        video.src = './assets/2.mp4';
     } else if (btnClicked === 2) {
         title.textContent = 'Ek aur baar sock lo!';
         subTitle.textContent = 'Kyu aisa kr rhe ho plz maan jao 😭';
-        video.src = './assets/3.mov';
+        video.src = './assets/3.mp4';
     } else if (btnClicked === 3) {
         title.textContent = 'Baby maan jaona kitna bhav khaoge';
         subTitle.textContent = 'Bhut glt baat hai yrr 🥺';
-        video.src = './assets/4.mov';
+        video.src = './assets/4.mp4';
     } else if (btnClicked === 4) {
         noBtn.style.position = 'absolute';
         noBtn.style.top = getRandomPosition(noBtn).y + 'px';
@@ -70,7 +70,7 @@ if (isMobile()) {
 yesBtn.addEventListener('click', () => {
     title.textContent = 'Yayyy! Thank you so much';
     subTitle.textContent = 'I love you tooooooo 😘';
-    video.src = './assets/5.mov';
+    video.src = './assets/5.mp4';
     yesBtn.style.display = 'none';
     noBtn.style.display = 'none';
 });
