@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do you love me</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .title, .btn {
+            font-family: 'Dancing Script', cursive;
+        }
+        .no-btn {
+            transition: all 0.3s linear;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex items-center justify-center min-h-screen bg-zinc-900">
+        <div class="text-center flex flex-col items-center w-full sm:w-3/4 md:w-1/2 px-4">
+            <div class="w-full sm:w-96 h-60 overflow-hidden rounded-xl mb-4">
+                <video class="video mx-auto w-full h-full object-cover" src="./assets/1.mov" autoplay muted loop playsinline preload="auto"></video>
+            </div>
+            <h1 class="title text-3xl sm:text-5xl font-bold text-pink-600 mb-2">Do you love me?</h1>
+            <p class="sub-title text-base sm:text-lg text-white mb-6">Arslan is all yours 🤗</p>
+            <div class="flex justify-center gap-2 sm:gap-4">
+                <button class="no-btn btn bg-red-500 text-white text-lg sm:text-xl font-bold py-2 px-4 sm:px-6 rounded-full hover:bg-red-700">No</button>
+                <button class="yes-btn btn bg-green-500 text-white text-lg sm:text-xl font-bold py-2 px-4 sm:px-6 rounded-full hover:bg-green-700">Yes</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
